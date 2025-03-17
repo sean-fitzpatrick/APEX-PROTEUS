@@ -13,7 +13,7 @@
     <target name="html-accelerated" format="html" source="apex-UL-accelerated.ptx" publication="publication-accelerated.ptx">
       <stringparams key="html.annotation" value="hypothesis"/>
     </target>
-    <target name="runestone" format="html" source="apex.ptx" publication="publication-runestone.ptx" output-dir="../published/APEX-PROTEUS">
+    <target name="runestone" format="html" source="apex.ptx" publication="publication-runestone.ptx" output-dir="../published/APEXPROTEUS">
       <stringparams key="html.annotation" value="hypothesis"/>
     </target>
     <target name="latex" format="latex" source="apex.ptx" publication="publication.ptx" xsl="apex-latex-style.xsl"/>
