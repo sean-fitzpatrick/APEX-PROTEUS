@@ -219,7 +219,7 @@
     <response/>
   </exercise>
 
-  <exercise label="APEX_chain_rule_2_v2">
+  <exercise>
     <introduction>
       <p>
         Imagine you are tracking the temperature inside a greenhouse between 7 am and 3 pm. 
@@ -306,7 +306,7 @@
     </task>
   </exercise>
 
-  <exercise label="APEX_chain_rule_3_v2">
+  <exercise>
     <introduction>
       <p>
         You are moving straight upward in a hot air balloon at a rate of 2 mph.

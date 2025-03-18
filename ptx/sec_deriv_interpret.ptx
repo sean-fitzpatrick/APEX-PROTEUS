@@ -169,7 +169,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX_interp_deriv_1_v3">
+    <exercise>
       <introduction>
         <p>
           The following questions refer to <xref ref="ex_der_meaning2"/>.
@@ -214,7 +214,7 @@
       </task>
     </exercise>
 
-    <exercise label="APEX_interp_deriv_2">
+    <exercise>
       <introduction>
         <p>
           Imagine you are watching a video of an American football game, and you see a player return a kick for a touchdown. 

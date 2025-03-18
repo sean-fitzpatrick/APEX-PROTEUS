@@ -351,7 +351,7 @@
       <response/>
     </exercise>
 
-    <exercise label="APEX_FTC_1_v1" xml:id="APEX_FTC_1_v1">
+    <exercise xml:id="APEX_FTC_1_v1">
       <introduction>
         <p>
           Let <m>F(x)=\int_0^x f(t)\,dt</m>, for <m>0\leq x\leq 4</m>,
@@ -387,7 +387,7 @@
 
       </introduction>
 
-      <task>
+      <task label="APEX_FTC_1_v1A">
         <statement>
           <p>
             Explain how you would find the values <m>F(0)</m>, <m>F(1)</m>, <m>F'(1)</m>, and <m>F''(1)</m>
@@ -396,7 +396,7 @@
         <response/>
       </task>
 
-      <task>
+      <task label="APEX_FTC_1_v1B">
         <statement>
           <p>
             Explain how to find the value of <m>F(4)</m>, without evaluating an integral.
@@ -405,7 +405,7 @@
         <response/>
       </task>
 
-      <task>
+      <task label="APEX_FTC_1_v1C">
         <statement>
           <p>
             Is <m>F</m> differentiable on the interval <m>(0,4)</m>?
@@ -416,7 +416,7 @@
       </task>
     </exercise>
 
-        <exercise label="APEX_FTC_4_v2">
+    <exercise>
       <title>What is so important about area under a curve?</title>
       <introduction>
         <p>
@@ -475,7 +475,7 @@
         </sidebyside>
       </introduction>
       
-      <task>
+      <task label="APEX_FTC_4_v2A">
         <statement>
           <p>
             In <xref ref="fig-PROTEUS-data-1"/>, the dark green region forms a rectangle.
@@ -488,7 +488,7 @@
         </statement>
         <response/>
       </task>
-      <task>
+      <task label="APEX_FTC_4_v2B">
         <statement>
           <p>
             Let <m>r(t)</m> be the transfer rate (in MB/s) over time <m>t</m> (in seconds),
