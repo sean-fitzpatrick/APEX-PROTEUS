@@ -344,6 +344,65 @@
     </statement>
   </definition>
 
+  <exercise label="APEX-graph-extreme-1-v1">
+    <statement>
+      <p>
+        The graph of a function is given below,
+        with several marked points.
+        Match each point with the attribute that best describes the point.
+        Note that more than one point may have a given attribute.
+      </p>
+
+      <image source="images/proteus-graph.png">
+        <shortdescription>The graph of a piecewise-defined function showing several marked points</shortdescription>
+        <description>
+          <p>
+            The graph of an unspecified function is shown. The function appears to be piecewise-defined,
+            and has several marked points, with labels A, B, C, D, E, F.
+          </p>
+
+          <p>
+            The point A is the left endpoint of the graph, and is also the highest point on the graph.
+            The coordinates of A appear to be <m>(-4,9.5)</m>.
+            From the point A the graph descends to the point B, with coordinates <m>(-1,2)</m>.
+            At B the graph has a cusp, and from there, the graph rises to the point C, with coordinates <m>(0,3)</m>.
+            From there, the graph descends to a point D with coordinates <m>(2,1)</m>;
+            at this point the graph turns back up, and rises to the point E at <m>(4,5)</m>.
+            At E, the graph has a sharp bend, but continues to rise to the point F, with coordinates <m>(6,7)</m>.
+            The point F is the right endpoint of the graph.
+          </p>
+        </description>
+      </image>
+    </statement>
+    <feedback>
+      <p>
+        Note that endpoints meet the definition of a relative maximum (or minimum),
+        if the endpoint lies above (or below) nearby points on the graph.
+        Note also that a point of non-differentiability is not a point of discontinuity.
+      </p>
+    </feedback>
+    <matches>
+      <match>
+        <response>Relative maximum</response>
+        <premise order="1">A</premise>
+        <premise order="2">C</premise>
+        <premise order="3">F</premise>
+      </match>
+      <match>
+        <response>Relative minimum</response>
+        <premise order="4">B</premise>
+        <premise order="5">D</premise>
+      </match>
+      <match>
+        <response>Point of discontinuity</response>
+      </match>
+      <match>
+        <response>None of these attributes</response>
+        <premise order="6">E</premise>
+      </match>
+    </matches>
+  </exercise>
+
   <aside xml:id="aside-graph-extreme-vocabulary2" vshift="1">
     <title>Alternative Vocabulary</title>
     <p>
@@ -1040,7 +1099,7 @@
     </solution>
   </example>
 
-  <aside xml:id="aside-graph-extreme-circle" vshift="3">
+  <!-- <aside xml:id="aside-graph-extreme-circle" vshift="3">
     <title>Circle Revisited</title>
     <p>
       We implicitly found the derivative of <m>x^2+y^2=1</m>,
@@ -1056,9 +1115,9 @@
       Recognize that the denominator of this fraction is <m>y</m>;
       that is, we again found <m>\fp(x) = \lz{y}{x} = -x/y</m>.
     </p>
-  </aside>
+  </aside> -->
 
-  <p>
+  <!-- <p>
     We have seen that continuous functions on closed intervals always have a maximum and minimum value,
     and we have also developed a technique to find these values.
     In <xref ref="sec_mvt"/>,
@@ -1070,10 +1129,10 @@
     We will see that differentiable functions always have a point at which their <em>instantaneous</em>
     rate of change is same as the <em>average</em> rate of change.
     This is surprisingly useful, as we'll see.
-  </p>
+  </p> -->
 
-  <exercises>
-    <subexercises xml:id="TaC-graph-extreme-values">
+  <!-- <exercises> -->
+    <!-- <subexercises xml:id="TaC-graph-extreme-values">
       <title>Terms and Concepts</title>
       <exercise label="TaC-graph-extreme-values-1">
         <webwork xml:id="webwork-TaC-graph-extreme-values-1">
@@ -1092,9 +1151,9 @@
             </p>
           </solution>
         </webwork>
-      </exercise>
+      </exercise> -->
 
-      <exercise label="TaC-graph-extreme-values-2">
+      <!-- <exercise label="TaC-graph-extreme-values-2">
         <statement>
           <p>
             Sketch the graph of a function <m>f</m> on <m>(-1,1)</m> that has both a maximum and minimum value.
@@ -1305,9 +1364,9 @@
                   ]
 
                   \draw [firstcolor] (axis cs:1,-2)	parabola 	(axis cs:2,1)
-                                                                  -- 	(axis cs:3,2)
+                                                                  -&#45 	(axis cs:3,2)
                                                             parabola [bend at end] (axis cs:4,1)
-                                                            -- (axis cs:5,-1);
+                                                            -&#45 (axis cs:5,-1);
 
                   \draw [firstcolor,fill=firstcolor] 	(axis cs: 1,-2) node [above,black] {\(A\)} circle (2.4pt)
                                 (axis cs:2,1) node [left,black] {\(B\)} circle (2.4pt)
@@ -2127,7 +2186,7 @@
           </webwork>
         </exercise>
       </exercisegroup>
-    </subexercises>
+    </subexercises> -->
 
     <!-- <subexercises>
       <title>Review</title>
@@ -2205,5 +2264,5 @@
         </webwork>
       </exercise>
     </subexercises> -->
-  </exercises>
+  <!-- </exercises> -->
 </section>

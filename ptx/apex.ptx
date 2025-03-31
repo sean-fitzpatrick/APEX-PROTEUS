@@ -70,7 +70,7 @@
 
     <xi:include href="./chapter_derivatives.ptx"/>
 
-    <!-- <xi:include href="./chapter_graphbehavior.ptx"/> -->
+    <xi:include href="./chapter_graphbehavior.ptx"/>
 
     <!-- <xi:include href="./chapter_deriv_apps.ptx"/> -->
 
