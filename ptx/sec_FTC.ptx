@@ -1021,8 +1021,8 @@
     <exercise label="APEX_FTC_3_v1">
       <statement>
         <p>
-          Let <m>F(t) = \int_0^x \cos(t^2)\,dt</m>, and let <m>G(t) = \int_0^{x^2}\cos(t)\,dt</m>.
-          Compute <m>F'(t)</m> and <m>G'(t)</m> using the Fundamental Theorem of Calculus.
+          Let <m>F(x) = \int_0^x \cos(t^2)\,dt</m>, and let <m>G(x) = \int_0^{x^2}\cos(t)\,dt</m>.
+          Compute <m>F'(x)</m> and <m>G'(x)</m> using the Fundamental Theorem of Calculus.
           Is the chain rule required for either derivative?
           If so, which one, and why?
         </p>
