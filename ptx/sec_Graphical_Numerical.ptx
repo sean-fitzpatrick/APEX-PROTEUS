@@ -2,7 +2,7 @@
 <section xml:id="sec_Graphical_Numerical" label="sec_Graphical_Numerical">
   <title>Graphical and Numerical Solutions to Differential Equations</title>
   <introduction>
-    <p>
+    <!-- <p>
       In <xref ref="sec_antider"/>,
       we were introduced to the idea of a differential equation.
       Given a function <m>y = f(x)</m>,
@@ -12,7 +12,7 @@
       We explored the simple differential equation <m>\yp = 2x</m>,
       and saw that a <em>solution</em>
       to a differential equation is simply a function that satisfies the differential equation.
-    </p>
+    </p> -->
     <figure xml:id="vid-diffeq-basic-intro" component="video" vshift="0">
       <caption>Video introduction to <xref ref="sec_Graphical_Numerical"/></caption>
       <video youtube="aevFioTbghg" label="vid-diffeq-basic-intro"/>
@@ -119,6 +119,59 @@
         </p>
       </statement>
     </definition>
+
+    <exercise label="APEX-diff-eq-1-v1">
+      <statement>
+        <p>
+          Match each function on the left below to the differential equation or condition that it satisfies.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          You might start by computing the first and second derivatives of each function on the left.
+        </p>
+      </feedback>
+      <matches>
+        <match order="2">
+          <premise><m>y(x)=e^x</m></premise>
+          <response><m>\yp =y</m> and <m>y(0)=1</m></response>
+        </match>
+        <match order="5">
+          <premise><m>y(x) = \sin(x)</m></premise>
+          <response><m>\yp' = -y</m> and <m>y(0)=0</m></response>
+        </match>
+        <match order="1">
+          <premise><m>y(x)=2\cos(x)</m></premise>
+          <response><m>y^{(4)}(x) = y(x)</m> and <m>y(0)=2</m></response>
+        </match>
+        <match order="3">
+          <premise><m>y(x)=2x+1</m></premise>
+          <response><m>\yp' = 0</m> for all <m>x</m></response>
+        </match>
+        <match order="8">          
+          <response><m>\yp =-y</m> and <m>y(0)=1</m></response>
+        </match>
+        <match order="4">
+          <premise><m>y(x)=\ln(\cos(x))</m></premise>
+          <response><m>\yp'+\sec^2(x)=0</m> for all <m>x</m></response>
+        </match>
+        <match order="9">
+          <premise><m>y(x)=x^2-2x+1</m></premise>
+          <response><m>\yp(1) = 0</m></response>
+        </match>
+        <match order="7">
+          <premise><m>y(x)=5e^{-x}</m></premise>
+          <response><m>\yp\lt 0</m> for all <m>x</m></response>
+        </match>
+        <match order="6">
+          <response><m>\yp'-\sec^2(x)=0</m> for all <m>x</m></response>
+        </match>
+        <match order="10">
+          <response><m>\yp=y</m> and <m>y(0)=0</m></response>
+        </match>
+        
+      </matches>
+    </exercise>
 
     <aside vshift="3">
       <p>
@@ -1138,7 +1191,7 @@
       The first comes from the fact that we're using a positive <m>h</m>-value in the derivative approximation instead of using a limit as <m>h</m> approaches zero.
       Essentially,
       we're using a linear approximation to the solution <m>y</m>
-      (similar to the process described in <xref ref="sec_differentials"/> on Differentials.)
+      <!-- (similar to the process described in <xref ref="sec_differentials"/> on Differentials.) -->
       This error is often called the <em>local truncation error.</em>
       The second source of error comes from the fact that every step in Euler's method uses the result of the previous step.
       That means we're using an approximate <m>y</m>-value to approximate the next <m>y</m>-value.
@@ -1279,7 +1332,7 @@
       we explore two techniques to find analytic solutions to two different classes of differential equations.
     </p>
   </subsection>
-
+<!-- 
   <exercises>
     <subexercises xml:id="TaC-graphical-numerical">
       <title>Terms and Concepts</title>
@@ -2286,5 +2339,5 @@
         </exercise>
       </exercisegroup>
     </subexercises>
-  </exercises>
+  </exercises> -->
 </section>

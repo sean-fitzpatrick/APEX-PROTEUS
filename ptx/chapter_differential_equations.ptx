@@ -21,7 +21,7 @@
     </p>
   </introduction>
   <xi:include href="sec_Graphical_Numerical.ptx"/>
-  <xi:include href="sec_Separable.ptx"/>
-  <xi:include href="sec_Linear.ptx"/>
-  <xi:include href="sec_Modeling.ptx"/>
+  <!-- <xi:include href="sec_Separable.ptx"/> -->
+  <!-- <xi:include href="sec_Linear.ptx"/> -->
+  <!-- <xi:include href="sec_Modeling.ptx"/> -->
 </chapter>
